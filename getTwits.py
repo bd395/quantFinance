@@ -1,5 +1,5 @@
 
-def getTwits(tix, static_info=False): 
+def getTwits(tix, static_info=False):
 
     # Data handling imports
 
