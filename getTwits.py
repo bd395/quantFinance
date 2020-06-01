@@ -62,7 +62,7 @@ def getTwits(tix, static_info=False):
         # LOOP THROUGH STATIC AND DAILY ATTRIBUTES TO BUILD OUT PANDAS DATAFRAMES
 
         #print(jsonData)
-        if static == True:
+        if static_info == True:
             for static in static_attributes:
                 attr_df.loc["{}".format(symbol), static] = jsonData['stocks']['inventory'] \
                                                                     ['{}'.format(symbol)][static]
