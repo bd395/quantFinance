@@ -1,17 +1,12 @@
 ### Made using: https://www.toptal.com/developers/gitignore
 
-.idea
-
-__pycache__/*
-
-
 ### JupyterNotebook ###
 .ipynb_checkpoints
 */.ipynb_checkpoints/*
 
 # Remove previous ipynb_checkpoints
 #   git rm -r .ipynb_checkpoints/
-#
+
 
 ### PyCharm ###
 # Covers JetBrains IDEs: IntelliJ, RubyMine, PhpStorm, AppCode, PyCharm, CLion, Android Studio and WebStorm
@@ -44,9 +39,9 @@ __pycache__/*
 # When using Gradle or Maven with auto-import, you should exclude module files,
 # since they will be recreated, and may cause churn.  Uncomment if using
 # auto-import.
-# .idea/modules.xml
-# .idea/*.iml
-# .idea/modules
+.idea/modules.xml
+.idea/*.iml
+.idea/modules
 
 # CMake
 cmake-build-*/
